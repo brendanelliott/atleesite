@@ -1,0 +1,17 @@
+.ProjectGrid {
+    position: absolute;
+    top: 194px;
+    left: 334px;
+}
+
+.CardGrid {
+    margin: 100px 0 0 165px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    grid-row-gap: 100px;
+}
+
+.CurrentMedium {
+    font-weight: 500;
+}

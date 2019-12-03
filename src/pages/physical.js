@@ -1,0 +1,54 @@
+import React from 'react'
+import Link from 'gatsby-link'
+import Header from '../components/header'
+import ProjectCard from '../components/ProjectCard'
+import '../layouts/medium.css'
+import '../components/ProjectCard'
+
+const activeStyles = {   
+    fontWeight: '700',
+}
+
+export default () => (
+    <div>
+        <Header />
+        <div className="Nav"> 
+            <div className='NavList'>
+                <Link to="/physical" className="CurrentMedium">- **physical**</Link>
+                <Link to="">- sounds</Link>
+                <Link to="">- digital</Link>
+                <Link to="">- visual</Link>
+                <Link to="">- words</Link>
+                <Link to="">- shop</Link>
+            </div>
+        </div>
+        <div className="ProjectGrid">
+            <div className="CardGrid">
+                <ProjectCard 
+                    header="&nbsp;# backpack 02"
+                    subheader="## project date"
+                    image={require('../images/backpack02.png')}
+                    Link="/backpack02"
+                />
+                <ProjectCard 
+                    header="&nbsp;# fannypack 01"
+                    subheader="## project date"
+                    image={require('../images/pack01.png')}
+                    Link="/backpack02"
+                />
+                <ProjectCard 
+                    header="&nbsp;# best brand crewneck"
+                    subheader="## project date"
+                    image={require('../images/mickeycrew.png')}
+                    Link="/backpack02"
+                />
+                <ProjectCard 
+                    header="&nbsp;# backpack 01"
+                    subheader="## project date"
+                    image={require('../images/backpack01.png')}
+                    Link="/backpack02"
+                />
+            </div>
+        </div>
+    </div>
+)

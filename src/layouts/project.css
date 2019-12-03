@@ -1,0 +1,42 @@
+.ProjectDisplay{
+    position: absolute;
+    top: 194px;
+    left: 334px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.ImageGrid {
+    width: 450px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 165px;
+    overflow: hidden;
+
+    border: solid;
+    border-width: 1px;
+    border-color: #484848;
+    border-radius: 10px;
+}
+
+.ImageGrid img {
+    width: 450px;
+    height: 450px;
+}
+
+.ProjectInfo {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.ProjectInfo h1 {
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.ProjectInfo p {
+    width: 280px;
+    margin-left: 30px;
+    font-size: 16px;
+}

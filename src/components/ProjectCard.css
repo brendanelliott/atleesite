@@ -1,0 +1,26 @@
+.ProjectCard {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.ProjectImage img {
+    width: 350px;
+    height: 350px;
+    border: solid;
+    border-width: 1px;
+    border-color: #484848;
+    border-radius: 5px;
+}
+
+.ProjectHeader {
+    max-width: 276;
+    margin: 12px 12px 12px 12px;
+}
+
+.ProjectHeader p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}

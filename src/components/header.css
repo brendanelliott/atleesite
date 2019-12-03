@@ -1,0 +1,28 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding-top: 60px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    background: #FFFFF4;
+    z-index: 100;
+}
+
+.HeaderContent {
+    margin: 0 auto;
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: auto max-content;
+    align-items: center;
+}
+
+.HeaderTitle {
+    width: 403px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.HeaderImage {
+    width: 87px;
+    height: 75px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  background-color: #FFFFF4;
+}
+
+a {
+  color: #484848;
+  text-decoration: none;
+}
+
+p {
+  color: #484848;
+}
+
+.hero {
+  height: 100%;
+  padding-top: 175px; 
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 40px;
+  justify-items: center;
+
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.heroImage img {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heroList {
+  margin: 0 auto;
+}
+
+.heroList ul {
+  padding: 0;
+  list-style-type: none;
+  line-height: 60px;
+}
+
+.heroList a {
+  color: #484848;
+  opacity: .8;
+  font-weight: 300;
+}
+
+.heroList a:hover {
+  opacity: 1;
+  font-weight: 500;
+}
+
+
+
