@@ -24,7 +24,7 @@ p {
 
 .heroContent {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, auto);
   grid-gap: 40px;
   justify-items: center;
 
@@ -61,5 +61,17 @@ p {
   font-weight: 500;
 }
 
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 100px;
+  }
 
+  .heroContent {
+    grid-template-columns: none;
+  }
+
+  .heroImage img {
+    height: 150px;
+  }
+}
 

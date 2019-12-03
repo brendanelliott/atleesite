@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard'
 import '../layouts/medium.css'
 import '../components/ProjectCard'
 
-const activeStyles = {   
+const Styles = {   
     fontWeight: '700',
 }
 
@@ -14,7 +14,7 @@ export default () => (
         <Header />
         <div className="Nav"> 
             <div className='NavList'>
-                <Link to="/physical" className="CurrentMedium">- **physical**</Link>
+                <Link to="/physical" style={Styles}>- **physical**</Link>
                 <Link to="">- sounds</Link>
                 <Link to="">- digital</Link>
                 <Link to="">- visual</Link>

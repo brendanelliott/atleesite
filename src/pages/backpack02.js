@@ -5,13 +5,16 @@ import '../layouts/project.css'
 import '../components/leftNav'
 import '../components/ProjectCard'
 
+const Styles = {   
+    fontWeight: '700',
+}
 
 export default () => (
     <div>
         <Header />
         <div className="Nav"> 
             <div className='NavList'>
-                <Link to="/physical" activeClassName="CurrentMedium">- **physical**</Link>
+                <Link to="/physical" style={Styles}>- **physical**</Link>
                 <Link to="/">- sounds</Link>
                 <Link to="/">- digital</Link>
                 <Link to="/">- visual</Link>

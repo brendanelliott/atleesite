@@ -1,6 +1,6 @@
 .ProjectDisplay{
     position: absolute;
-    top: 194px;
+    top: 200px;
     left: 334px;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -12,10 +12,6 @@
     margin-top: 100px;
     margin-left: 165px;
     overflow: hidden;
-
-    border: solid;
-    border-width: 1px;
-    border-color: #484848;
     border-radius: 10px;
 }
 
@@ -40,3 +36,78 @@
     margin-left: 30px;
     font-size: 16px;
 }
+
+@media (max-width: 1350px) {
+    .ImageGrid {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .ProjectDisplay {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ImageGrid {
+        margin-left: 165px;
+    }
+
+    .ProjectInfo {
+        margin-top: 40px;
+        margin-left: 165px;
+    }
+
+    
+}
+
+@media (max-width: 1050px) {
+    .Nav {
+        display: none;
+    }
+    
+    .ProjectDisplay {
+        margin: 0 auto;
+        width: 100%;
+        left: 0;
+        justify-items: center;
+    }
+
+    .ProjectInfo {
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    .ImageGrid {
+        width: 350px;
+        height: 350px;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .ImageGrid img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .ProjectInfo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .ProjectDisplay {
+        top: 150px;
+    }
+
+    .ImageGrid {
+        width: 325px;
+        height: 325px;
+    }
+
+    .ImageGrid img {
+        width: 325px;
+        height: 325px;
+    }
+}
+
+
