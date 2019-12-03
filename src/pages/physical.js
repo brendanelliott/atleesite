@@ -15,11 +15,10 @@ export default () => (
         <div className="Nav"> 
             <div className='NavList'>
                 <Link to="/physical" style={Styles}>- **physical**</Link>
-                <Link to="">- sounds</Link>
-                <Link to="">- digital</Link>
-                <Link to="">- visual</Link>
-                <Link to="">- words</Link>
-                <Link to="">- shop</Link>
+                <Link to="/sounds">- sounds</Link>
+                <Link to="/digital">- digital</Link>
+                <Link to="visual">- visual</Link>
+                <Link to="/words">- words</Link>
             </div>
         </div>
         <div className="ProjectGrid">

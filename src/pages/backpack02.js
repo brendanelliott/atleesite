@@ -19,7 +19,6 @@ export default () => (
                 <Link to="/">- digital</Link>
                 <Link to="/">- visual</Link>
                 <Link to="/">- words</Link>
-                <Link to="/">- shop</Link>
             </div>
         </div>
         {/* <LeftNav /> */}

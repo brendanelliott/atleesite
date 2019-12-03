@@ -9,11 +9,11 @@ const IndexPage = () => (
             </div>
             <div className="heroList"> 
                 <ul>
-                    <li><Link to="/physical/">physical</Link></li>
-                    <li><Link to="/physical/">sounds</Link></li>
-                    <li><Link to="/physical/">digital</Link></li>
-                    <li><Link to="/physical/">visual</Link></li>
-                    <li><Link to="/physical/">words</Link></li>
+                    <li><Link to="/physical">physical</Link></li>
+                    <li><Link to="/sounds">sounds</Link></li>
+                    <li><Link to="/digital">digital</Link></li>
+                    <li><Link to="/visual">visual</Link></li>
+                    <li><Link to="/words">words</Link></li>
                 </ul>
             </div>
         </div>
