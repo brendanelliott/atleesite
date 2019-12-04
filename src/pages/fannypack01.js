@@ -24,12 +24,12 @@ export default () => (
         {/* <LeftNav /> */}
         <div className="ProjectDisplay">
             <div className="ImageGrid">
-                <img src={require("../images/backpack02.jpg")} />
+                <img src={require("../images/pack01.jpg")} />
             </div>
             <div className="ProjectInfo">
-                <h1>&nbsp;# backpack 02</h1>
+                <h1>&nbsp;# fannypack 01</h1>
                 <h1>## 2019</h1>
-                <p>cotton canvas, Dyneema®, nylon, foam, used seatbelt </p>
+                <p>Dyneema®, nylon, metal fidlock buckle </p>
             </div>
         </div>
     </div>

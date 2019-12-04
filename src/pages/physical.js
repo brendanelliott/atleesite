@@ -25,27 +25,27 @@ export default () => (
             <div className="CardGrid">
                 <ProjectCard 
                     header="&nbsp;# backpack 02"
-                    subheader="## project date"
-                    image={require('../images/backpack02.png')}
+                    subheader="## 2019"
+                    image={require('../images/backpack02.jpg')}
                     Link="/backpack02"
                 />
                 <ProjectCard 
                     header="&nbsp;# fannypack 01"
-                    subheader="## project date"
-                    image={require('../images/pack01.png')}
-                    Link="/backpack02"
+                    subheader="## 2019"
+                    image={require('../images/pack01.jpg')}
+                    Link="/fannypack01"
                 />
                 <ProjectCard 
                     header="&nbsp;# best brand crewneck"
-                    subheader="## project date"
-                    image={require('../images/mickeycrew.png')}
-                    Link="/backpack02"
+                    subheader="## 2019"
+                    image={require('../images/mickeycrew.jpg')}
+                    Link="/mickeycrew"
                 />
                 <ProjectCard 
                     header="&nbsp;# backpack 01"
-                    subheader="## project date"
-                    image={require('../images/backpack01.png')}
-                    Link="/backpack02"
+                    subheader="## 2017"
+                    image={require('../images/backpack01.jpg')}
+                    Link="/backpack01"
                 />
             </div>
         </div>

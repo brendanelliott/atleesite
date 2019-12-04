@@ -6,10 +6,11 @@
 .ProjectImage img {
     width: 300px;
     height: 300px;
+    overflow: hidden;
     border: solid;
+    border-radius: 10px;
     border-width: 1px;
-    border-color: #484848;
-    border-radius: 5px;
+    border-color: #E1E1E1;
 }
 
 .ProjectHeader {

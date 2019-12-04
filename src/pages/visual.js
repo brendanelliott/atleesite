@@ -22,7 +22,8 @@ export default () => (
             </div>
         </div>
         <div className="EmptyState">
-            <h1>this will happen later on</h1>
+            <p>&nbsp;# working on visuals</p>
+            <p>## coming</p>
         </div>
     </div>
 )

@@ -15,40 +15,16 @@
     font-weight: 500;
 }
 
+
+
 @media (max-width: 1300px) {
     .CardGrid {
         margin: 100px 0 100px 250px;
         grid-template-columns: repeat(1, 1fr);
-    }
-    
+    }  
 }
 
-@media (max-width: 1100px) {
-    .CardGrid {
-        margin: 100px 0 100px 165px;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-}
-
-@media (max-width: 950px) {
-    .HeaderContent {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .HeaderTitle p {
-        font-size: 24px;
-    }
-
-    .HeaderImage img {
-        height: 60px;
-    }
-
-    .Nav {
-        display: none;
-    }
-    
+@media (max-width: 1050px) {
     .ProjectGrid {
         width: 100%;
         top: 280px;
@@ -62,13 +38,26 @@
     }
 }
 
-@media (max-width: 650px) {
-    .ProjectGrid {
-        top: 225px;
+@media (max-width: 800px) {
+    .HeaderContent {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .HeaderTitle {
+        display: none;
     }
 
     .HeaderImage {
-        display: none;
+        float: left;
+    }
+
+    .HeaderImage img {
+        height: 75px;
+    }
+
+    .ProjectGrid {
+        top: 225px;
     }
 }
 
