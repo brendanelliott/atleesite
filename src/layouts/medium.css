@@ -52,6 +52,12 @@
         float: left;
     }
 
+    .Dropdown {
+        display: block;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
     .HeaderImage img {
         height: 75px;
     }

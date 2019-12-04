@@ -12,6 +12,9 @@ const Header = ({ siteTitle }) => (
       <div className="HeaderImage">
         <Link to="/"><img src={require('../images/AtleeLogo.png')} height="75px"/></Link>
       </div>
+      <div className="Dropdown">
+        <Link to="/"><img src={require('../images/dropdown.png')} height="24px"/></Link>
+      </div>
     </div>
   </div>
 )
